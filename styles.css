@@ -1,0 +1,197 @@
+.{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #eff4fd;
+
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover{
+    color: orangered;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 13%;
+
+}
+
+.detel hi{
+    font-size: 15px;
+    color: #212121;
+    margin-bottom: 20px;
+
+}
+
+span{
+    font-size: 35px;
+    color: rgba(255, 98, 0, 0.868);
+}
+
+.detel p{
+    color: #555;
+    line-height: 22px;
+}
+
+.detel a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+     color: #fff;
+     display: inline-block;
+     margin: 30px 0;
+     border-radius: 5px;
+
+}
+
+.images{
+    width: 60%;
+    height: 57%;
+    position: absolute;
+    bottom: 30%;
+    right: 55px;   
+
+}
+
+.images img{
+    height: 55%;
+    position: absolute;
+    left: 70%;
+    bottom: 40%;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+    border-radius: 30%;
+    clip-path: circle();
+
+}
+
+.images:hover .{
+    bottom: 10px;
+}
+
+.images:hover .{
+    left: 10%;
+}
+
+.{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+input{
+    width: 40%;
+    height: 40px;
+    border: 2px solid rgba(0, 0,0,0.1);
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 20px;
+    font-weight: 500;
+    color: rgba(0, 0,0,0.5);
+    outline-style: none; 
+}
+footer{
+    background-color: #111;
+}
+.footercontainer{
+        width: 100%;
+        padding: 70px 30px 20px;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: left;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover{
+    background-color:#111;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i{
+    color:white;
+    transition: 0.5s;
+}
+
+.footerNav{
+    margin: 30px 0;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: left;
+}
+
+.footerNav ul li a{
+    columns: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p{
+    color: white;
+}
+
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
